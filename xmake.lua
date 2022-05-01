@@ -1,0 +1,7 @@
+target("jfm")
+	set_kind("binary")
+	add_files("src/*.c")
+	set_symbols("debug")
+	add_linkdirs("$(projectdir)/ncurses/lib")
+	add_links("ncurses")
+	add_includedirs("$(projectdir)/ncurses/include")

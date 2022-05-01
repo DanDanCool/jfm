@@ -1,0 +1,5 @@
+build/
+ncurses/
+test/
+.gdb_history
+.xmake/
