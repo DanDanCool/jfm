@@ -116,7 +116,6 @@ void jfm_delete(jfm_state* state)
     {
         jfm_fd* fd = &state->selected.data[i];
         remove(fd->name);
-        free(fd->name);
     }
 
     jfm_unselect(state);
